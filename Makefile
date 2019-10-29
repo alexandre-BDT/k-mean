@@ -11,7 +11,7 @@ SRC	=	app/Main.hs	\
 
 all:	$(NAME)
 
-$(NAME): $(SRC)
+$(NAME): $(SRC)    
 	stack build --copy-bins --local-bin-path .
 
 clean:
